@@ -1,8 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import {fetchingCountries} from './redux/actions/countries'
-import { useDispatch, useSelector } from 'react-redux';
-import { useEffect } from 'react';
 import Nav from './Components/Nav';
 import Header from './Components/Header';
 import Hero from './Components/Hero';
