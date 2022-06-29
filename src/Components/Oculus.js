@@ -7,7 +7,7 @@ export default function Oculus() {//md:container md:flex md:mx-auto
         <div className='p-4 mt-8 md:p-8 md:mx-auto md:mt-40 md:mb-20 bg-[#0e2165] border-2'>
             <div className='md:flex md:items-center md:gap-32 md:w-4/5 md:mx-auto'>
                 <div className='md: md:text-center'>
-                    <img src={Ocu} style={{ width: '364px', height: '151px' }} />
+                    <img src={Ocu} style={{ width: '364px', height: '151px' }} alt=""/>
                 </div>
                 <div className='mt-8'>
                     <h3 className='text-center text-3xl text-white font-bold font-[Poppins] md:text-3xl md:text-white md:text-left md:font-bold md:font-[Poppins]'>The next level of VR gaming</h3>

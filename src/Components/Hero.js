@@ -71,7 +71,7 @@ export default function Hero() {
             </div>
 
             <div className='text-center mt-8'>
-                <img src={Bose} className="md: -mt-8" />
+                <img src={Bose} className="md: -mt-8"alt='' />
             </div>
             
         </div>

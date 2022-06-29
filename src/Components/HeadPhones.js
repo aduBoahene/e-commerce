@@ -42,7 +42,7 @@ function ChairCard({image}){
     return(
         <div className='mb-4 h-auto md:mt-6 md:mr-4 md:h-64 md:p-4 md:w-full'>
             <div className='p-2 md:bg-gray-200'>
-                <img src={image} className="h-66 md:h-52 md:w-full"/>
+                <img src={image} className="h-66 md:h-52 md:w-full" alt=''/>
             </div>
 
             <div className='p-2 text-left text-[#0e2165] font-[Poppins] font-bold md:mt-4 md:font-[Poppins] md:font-bold'>

@@ -7,12 +7,6 @@ import Sofa11 from "../images/sofa11.png"
 import Sofa4 from "../images/4.png"
 import Sofa5 from "../images/5.png"
 import Sofa6 from "../images/6.png"
-import kente from "../images/kentee.png"
-
-import kenteCh from "../images/123.png"
-
-import bread from "../images/00.png"
-
 
 
 
@@ -69,7 +63,7 @@ function ChairCard({image}){
     return(
         <div className='mb-4 md:mt-6 md:mr-4 md:h-64 md:p-4 md:w-full'>
             <div className='p-2 md:bg-gray-200'>
-                <img src={image} className="h-66 md:h-52 md:w-full"/>
+                <img src={image} className="h-66 md:h-52 md:w-full" alt=''/>
             </div>
 
             <div className='p-2 text-left text-[#0e2165] font-[Poppins] font-bold md:mt-4 md:font-[Poppins] md:font-bold'>

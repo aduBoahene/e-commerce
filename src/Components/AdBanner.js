@@ -40,7 +40,7 @@ function AddContentLeft({description, image, imageClasses, background, buttonCap
                 <RoundButton caption={buttonCaption} width="1/6 mt-4" backColor={backColor}/>
             </div>
 
-            <img src={image} className="md:h-52"/>
+            <img src={image} className="md:h-52" alt=''/>
             
         </div>
     )
@@ -56,7 +56,7 @@ function AddContentRight({description, image, imageClasses, background, buttonCa
                 <RoundButton caption={buttonCaption} width="1/6" backColor={backColor}/>
             </div>
 
-            <img src={image} className="mx-auto md:h-52"/>
+            <img src={image} className="mx-auto md:h-52" alt=''/>
             
         </div>
     )
