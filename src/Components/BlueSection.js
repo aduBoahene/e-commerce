@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BlueSection() {
   return (
-    <div className='bg-[#0e2165] md:mb-8'>
+    <div className='bg-[#0e2165]'>
         <div className='w-1/2 mx-auto p-4 md:w-5/6 md:mx-auto md:p-16 md:flex md:gap-6'>
             <OneItem 
                 image={<svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
