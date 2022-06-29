@@ -11,7 +11,7 @@ export default function Watches() {
 
             <div className='md:w-full'>
                 <div>
-                    <div className=' font-[poppins] flex gap-4 font-bold md:mt-8 md:mr-4 md:p-4 md:flex md:gap-4 md:font-bold md:font-[poppins]'>
+                    <div className='w-full font-[poppins] p-2 flex font-bold md:mt-8 md:mr-4 md:p-4 md:flex md:gap-4 md:font-bold md:font-[poppins]'>
                         <span className='text-[#0e2165] font-bold font-[Poppins]'>Popular in Catergory</span>
                         <span className=' font-bold font-[Poppins]'>Watches</span>
                         <span className=' font-bold font-[Poppins]'>Jewels</span>

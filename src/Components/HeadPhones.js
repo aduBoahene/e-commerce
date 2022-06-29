@@ -6,13 +6,13 @@ import Sofa11 from "../images/sofa11.png"
 
 export default function HeadPhones() {
   return (
-    <div className='border-2 mb-8 md:gap-4 md:flex md:w-5/6 mx-auto md:items-center'>
+    <div className='w-full mb-8 md:gap-4 md:flex md:w-5/6 mx-auto md:items-center'>
         <div className='text-center p-4 md:text-center md:p-4'>
             <h5 className='font-poppins font-bold text-[#0e2165]'>LIMITED TIME OFFER</h5>
             <h4 className='font-poppins font-[Poppins]'>PREMIUM AUDIO</h4>
             <h3 className='font-poppins font-extrabold text-[#0e2165]'>QUALITY HEADPHONES</h3>
 
-            <div className='flex gap-4 p-4 md:flex md:gap-2'>
+            <div className='flex p-4 md:flex md:gap-2'>
                 <span className='font-[Poppins]'>03<br/>Days</span><br/>
                 <span className='font-[Poppins]'>33<br/>Hours</span><br/>
                 <span className='font-[Poppins]'>30<br/>Minutes</span><br/>
